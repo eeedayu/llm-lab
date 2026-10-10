@@ -1,0 +1,50 @@
+{"messages": [{"role": "user", "content": "我拿到一个 HTML 文档，怎样避免把导航栏也当作训练正文？"}]}
+{"messages": [{"role": "user", "content": "PDF 文档里有双栏排版，直接提取文本顺序错乱怎么办？"}]}
+{"messages": [{"role": "user", "content": "OCR 把命令中的字符识别错了，如何处理？"}]}
+{"messages": [{"role": "user", "content": "某个文档中的版本号不明确，是否应该纳入 CPT？"}]}
+{"messages": [{"role": "user", "content": "仓库根目录有 MIT 许可证，是否意味着所有文件都能用？"}]}
+{"messages": [{"role": "user", "content": "怎样处理文档中的表格，避免模型只记住零散数值？"}]}
+{"messages": [{"role": "user", "content": "训练语料里的命令包含 `$HOME` 或占位路径，应该怎样保留？"}]}
+{"messages": [{"role": "user", "content": "一段日志出现访问令牌，应该如何处理整份来源？"}]}
+{"messages": [{"role": "user", "content": "如何确认一句技术结论确实受到引用来源支持？"}]}
+{"messages": [{"role": "user", "content": "训练材料里同一个术语有多种译法，要统一吗？"}]}
+{"messages": [{"role": "user", "content": "模型说明里的显存数字如何整理成可训练文本？"}]}
+{"messages": [{"role": "user", "content": "同一问题在两份官方文档中有冲突，数据应该怎么处理？"}]}
+{"messages": [{"role": "user", "content": "我想让模型学会引用来源，数据里需要保留 URL 吗？"}]}
+{"messages": [{"role": "user", "content": "怎样构建不泄漏训练文档的评估集？"}]}
+{"messages": [{"role": "user", "content": "为什么评估题最好包含未公开的新题？"}]}
+{"messages": [{"role": "user", "content": "两个标注者对 chosen 和 rejected 的偏好相反，怎样处理？"}]}
+{"messages": [{"role": "user", "content": "怎样让人工标注者对“回答更好”有一致理解？"}]}
+{"messages": [{"role": "user", "content": "SFT 答案需要保留回答中的不确定性吗？"}]}
+{"messages": [{"role": "user", "content": "领域说明文档中有过时命令，但仍有历史价值，怎么处理？"}]}
+{"messages": [{"role": "user", "content": "怎么评估模型对版本问题的回答是否可靠？"}]}
+{"messages": [{"role": "user", "content": "自动生成的问答看起来通顺，是否可以直接放进 SFT？"}]}
+{"messages": [{"role": "user", "content": "我如何判断一批 CPT 文本覆盖面足够？"}]}
+{"messages": [{"role": "user", "content": "如何处理模型生成的评估问题中包含来源外知识的情况？"}]}
+{"messages": [{"role": "user", "content": "如果评估集里发现一个训练样本的近似改写，该怎么办？"}]}
+{"messages": [{"role": "user", "content": "评估指标变好，但人工感觉回答更差，先看什么？"}]}
+{"messages": [{"role": "user", "content": "怎样设计一条要求模型承认知识边界的 SFT 样本？"}]}
+{"messages": [{"role": "user", "content": "为什么同一模型在不同运行里指标会有小幅波动？"}]}
+{"messages": [{"role": "user", "content": "怎样为数据生成流程做可复现记录？"}]}
+{"messages": [{"role": "user", "content": "清洗时删除了很多网页段落，怎样确认没有过度过滤？"}]}
+{"messages": [{"role": "user", "content": "训练集只包含当前版本资料，会有什么局限？"}]}
+{"messages": [{"role": "user", "content": "问答样本里要不要把答案来源一起放进 assistant 回复？"}]}
+{"messages": [{"role": "user", "content": "如何避免训练文本里的绝对路径泄露开发者目录？"}]}
+{"messages": [{"role": "user", "content": "一个偏好对只有语气不同，没有事实差别，适合 DPO 吗？"}]}
+{"messages": [{"role": "user", "content": "chosen 回答更详细但多出一个未经证实的结论，仍应选它吗？"}]}
+{"messages": [{"role": "user", "content": "怎样构造关于版本差异的 DPO 偏好对？"}]}
+{"messages": [{"role": "user", "content": "一条 rejected 回答含有敏感凭据，应该如何处理？"}]}
+{"messages": [{"role": "user", "content": "如何挑选 DPO 训练之外的偏好评估题？"}]}
+{"messages": [{"role": "user", "content": "为什么要保留生成候选答案的模型和参数？"}]}
+{"messages": [{"role": "user", "content": "数据快照校验和不匹配时，可以继续恢复训练吗？"}]}
+{"messages": [{"role": "user", "content": "如何抽查语料中的重复段落是否只是合法引用？"}]}
+{"messages": [{"role": "user", "content": "怎样验证转换后的模型仍保留 tokenizer 的特殊 token？"}]}
+{"messages": [{"role": "user", "content": "基准测试中如何处理模型拒答？"}]}
+{"messages": [{"role": "user", "content": "如何判定一个 SFT 问题存在多个合理答案？"}]}
+{"messages": [{"role": "user", "content": "领域文档中的表格脚注被遗漏，会有什么影响？"}]}
+{"messages": [{"role": "user", "content": "如何处置来源无法追溯的旧笔记？"}]}
+{"messages": [{"role": "user", "content": "怎样比较原始文本和规范化文本的差异？"}]}
+{"messages": [{"role": "user", "content": "自动筛选器把有用样本判为低质量时如何改进？"}]}
+{"messages": [{"role": "user", "content": "如何评估模型是否学会了正确的故障排查顺序？"}]}
+{"messages": [{"role": "user", "content": "微调后模型开始重复训练语料中的原文，应该检查什么？"}]}
+{"messages": [{"role": "user", "content": "数据管道中每阶段都应记录哪些计数？"}]}
