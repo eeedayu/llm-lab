@@ -12,6 +12,6 @@ wheels/
 
 gguf/
 merged/
-run/
+runs/
 
 api_key.txt
